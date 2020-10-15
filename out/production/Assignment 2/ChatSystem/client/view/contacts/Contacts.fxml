@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatSystem.client.view.contacts.ContactsController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="254.0" layoutY="40.0" text="Contacts">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="34.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToLogin" text="Back to Login" />
+            <ListView fx:id="contactsListViewId" layoutX="34.0" layoutY="75.0" prefHeight="286.0" prefWidth="533.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

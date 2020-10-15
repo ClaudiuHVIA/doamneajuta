@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment 1/Assignment 1.iml" filepath="$PROJECT_DIR$/Assignment 1/Assignment 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 2/Assignment 2.iml" filepath="$PROJECT_DIR$/Assignment 2/Assignment 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 1/Lesson 1.iml" filepath="$PROJECT_DIR$/Lesson 1/Lesson 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 2/Lesson 2.iml" filepath="$PROJECT_DIR$/Lesson 2/Lesson 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 3/Lesson 3.iml" filepath="$PROJECT_DIR$/Lesson 3/Lesson 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 4/Lesson 4.iml" filepath="$PROJECT_DIR$/Lesson 4/Lesson 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 5/Lesson 5.iml" filepath="$PROJECT_DIR$/Lesson 5/Lesson 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 6/Lesson 6.iml" filepath="$PROJECT_DIR$/Lesson 6/Lesson 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 7 Sockets/Lesson 7 Sockets.iml" filepath="$PROJECT_DIR$/Lesson 7 Sockets/Lesson 7 Sockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson 8 Sockets/Lesson 8 Sockets.iml" filepath="$PROJECT_DIR$/Lesson 8 Sockets/Lesson 8 Sockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ2.iml" filepath="$PROJECT_DIR$/SDJ2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQL/SQL.iml" filepath="$PROJECT_DIR$/SQL/SQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketsUppercaseExample/SocketsUppercaseExample.iml" filepath="$PROJECT_DIR$/SocketsUppercaseExample/SocketsUppercaseExample.iml" />
+    </modules>
+  </component>
+</project>

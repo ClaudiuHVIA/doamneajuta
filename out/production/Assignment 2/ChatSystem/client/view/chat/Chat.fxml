@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatSystem.client.view.chat.ChatController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="chatUsernameId" layoutX="487.0" layoutY="34.0" text="Username">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="21.0" layoutY="30.0" mnemonicParsing="false" onAction="#chatBackButton" text="Back" />
+            <ScrollPane layoutX="22.0" layoutY="55.0" prefHeight="286.0" prefWidth="556.0">
+               <content>
+                  <ListView fx:id="chatListViewId" prefHeight="284.0" prefWidth="553.0" />
+               </content>
+            </ScrollPane>
+            <TextField fx:id="chatMessageId" layoutX="22.0" layoutY="341.0" prefHeight="25.0" prefWidth="492.0" />
+            <Button layoutX="513.0" layoutY="341.0" mnemonicParsing="false" onAction="#chatSendButton" prefHeight="25.0" prefWidth="65.0" text="Send" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
